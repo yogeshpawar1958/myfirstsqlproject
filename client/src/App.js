@@ -13,7 +13,7 @@ function App() {
     const [mobile, setMobile] = useState();
     const [adhar, setAdhar] = useState();
     const [data, setData] = useState([]);
-
+//reset the state
   const resetdata = () => {
     setFname("");
     setLname("");
